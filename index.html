@@ -39,9 +39,21 @@
     p {
       font-size: 1.3rem;
       max-width: 600px;
-      margin: 0 auto;
+      margin: 0 auto 1.5rem;
       line-height: 1.6;
       color: #ccc;
+    }
+
+    a.email {
+      color: var(--accent);
+      font-size: 1rem;
+      text-decoration: none;
+      border-bottom: 1px solid var(--accent);
+      transition: opacity 0.2s ease-in-out;
+    }
+
+    a.email:hover {
+      opacity: 0.7;
     }
 
     footer {
@@ -68,6 +80,7 @@
   <div class="container">
     <h1>triplefour</h1>
     <p>We create innovative, smart SaaS products that redefine what's possible in the digital world.</p>
+    <a href="mailto:info@triplefour.se" class="email">info@triplefour.se</a>
   </div>
   <footer>&copy; 2025 triplefour — all rights reserved</footer>
 </body>
